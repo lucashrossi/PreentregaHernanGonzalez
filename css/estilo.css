@@ -38,6 +38,10 @@ nav li {
 	font-size: 2rem;
 }
 
+.colorNav {
+	background-color: rgba(78, 24, 24, 0.7);
+}
+
 
 img{
 	width:20%;

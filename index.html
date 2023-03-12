@@ -13,52 +13,81 @@
 <body>
 	<!-- inicio encabezado -->
 	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="./views/About.html">Sobre mi</a></li>
-				<li><a href="./views/Presentacion.html">Presentacion</a></li>
-				<li><a href="./views/Fotos.html">Fotos</a></li>
-				<li><a href="./views/Contacto.html">Contacto</a></li>
-			</ul>
+		<nav class="navbar navbar-expand-lg navbar-light colorNav">
+			<div class="container-fluid">
+			  <a class="navbar-brand" href="#"></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
+				  <li class="nav-item">
+					<a class="nav-link" href="./views/About.html">Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="./views/About.html">Sobre mi</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="./views/Presentacion.html">Presentacion</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="./views/Fotos.html">Fotos</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="./views/Contacto.html">Contacto</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
 		</nav>
 		
 	</header>
 	
 	<!-- fin encabezado -->
-	<div class="mitad">
-		<section class="sectionizq">
-			<a target="_blank"><img src="./assets/img/FotoC.jpg" alt="Mi Foto" /></a>
-			<h1>
-				<a target="_blank">Hernan Gonzalez</a>
-				<h2>Portfolio</h2>
-			</h1>
-			<ul>
-				<li>Web Pages</li>
-				<li>DashBoards</li>
-				<li>VBA Excel Sheets</li>
-			</ul>
+	<main class="mitad">
+		
+		<section class="row align-items-center">
+			<div class="col-sm-12 col-md-3">
+				<a target="_blank"><img src="./assets/img/FotoC.jpg" alt="Mi Foto" /></a>
+				<h1>
+					<a target="_blank">Hernan Gonzalez</a>
+					<h2>Portfolio</h2>
+				</h1>
+				<ul>
+					<li>Web Pages</li>
+					<li>DashBoards</li>
+					<li>VBA Excel Sheets</li>
+				</ul>
+			</div>
+
+			<div class="col-sm-12 col-md-9">
+				<section class="row align-items-center">
+					<h2>Recent Work</h2>
+					<div class="col-sm-12 col-md-6">
+						<article>
+							<img src="./assets/img/05.jpg" alt="">
+							<h3>Primer artículo</h3>
+						</article>
+						<article>
+							<img src="./assets/img/05.jpg" alt="">
+							<h3>Segundo artículo</h3>
+						</article>
+					</div>
+					<div class="col-sm-12 col-md-6">
+						<article>
+							<img src="./assets/img/05.jpg" alt="">
+							<h3>Tercer artículo</h3>
+						</article>
+						<article>
+							<img src="./assets/img/05.jpg" alt="">
+							<h3>Cuarto artículo</h3>
+						</article>
+					</div>
+				</section>
+			</div>	
 		</section>
-		<section class="sectionder">
-			<h2>Recent Work</h2>
-			<article>
-				<img src="./assets/img/05.jpg" alt="">
-				<h3>Primer artículo</h3>
-			</article>
-			<article>
-				<img src="./assets/img/05.jpg" alt="">
-				<h3>Segundo artículo</h3>
-			</article>
-			<article>
-				<img src="./assets/img/05.jpg" alt="">
-				<h3>Tercer artículo</h3>
-			</article>
-			<article>
-				<img src="./assets/img/05.jpg" alt="">
-				<h3>Cuarto artículo</h3>
-			</article>
-		</section>
-	</div>
+		
+	</main>
 
 	<!-- inicio footer -->
 	<footer>
