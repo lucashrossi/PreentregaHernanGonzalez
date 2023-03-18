@@ -1,5 +1,7 @@
 @import "variables.scss";
 @import "utilidades.scss";
+@import "mixin.scss";
+
 
 * {
 	
@@ -46,17 +48,19 @@ nav li {
 }
 
 
-img{
-	width:20%;
-	border: black 3px;
+.fotosBox {
+	@flexible
 }
 
-.fotos {
-	width:100%;
-	border: black 3px;
-}
-
-article img{
-	width:50%;
-	border: black 3px;
-}
+/*- crear una variable
+-crear un mapa
+-usar la variable
+-usar el mapa con map-get
+-hacer las particiones e importar
+-dejar el archivo estilos.scss solo con import 
+-anidar cada particion
+-anidar las medias querys
+-crear una hoja de mixin
+-crear un mixin
+-utilizarlo en cualquier parte del proyecto con el include
+- si es posible tambien usar un extend*/
