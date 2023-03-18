@@ -1,0 +1,14 @@
+@import 'variables.scss';
+
+@mixin desktop {
+    @media(min-width:#{$desktop}) {
+        @content;
+    }
+}
+
+@mixin flexible(){
+
+}
+
+
+
