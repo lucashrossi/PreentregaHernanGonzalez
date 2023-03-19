@@ -1,10 +1,12 @@
+/* maps */
+/* maps */
 img {
   width: 20%;
   border: black 3px;
 }
 
 .fotos {
-  width: 100%;
+  width: 80%;
   border: black 3px;
 }
 
@@ -13,60 +15,45 @@ article img {
   border: black 3px;
 }
 
+/* maps */
+/* maps */
 * {
   text-align: center;
 }
 
+/* maps */
+/* maps */
 body {
   background-color: rgba(182, 178, 178, 0.7);
 }
-
-footer {
+body footer {
   text-align: center;
 }
-
-footer li {
+body footer li {
   display: inline-block;
   width: 5%;
 }
-
-.sectionizq {
+body .sectionizq {
   width: 20%;
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
-
-.sectionder {
+body .sectionder {
   width: 79%;
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
-
-nav li {
+body nav li {
   display: inline-block;
   width: 15%;
   font-size: 2rem;
 }
-
-.colorNav {
+body .colorNav {
   background-color: rgba(113, 90, 90, 0.7);
 }
-
-.fotosBox {
-  @flexible;
-}
-
-/*- crear una variable
--crear un mapa
--usar la variable
--usar el mapa con map-get
--hacer las particiones e importar
--dejar el archivo estilos.scss solo con import 
--anidar cada particion
--anidar las medias querys
--crear una hoja de mixin
--crear un mixin
--utilizarlo en cualquier parte del proyecto con el include
-- si es posible tambien usar un extend*//*# sourceMappingURL=estilos.css.map */
+body main section div section div article img {
+  border-radius: border-radius;
+  border-radius: 0.35em;
+}/*# sourceMappingURL=estilos.css.map */

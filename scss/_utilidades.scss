@@ -1,11 +1,14 @@
+@import 'mixin.scss';
+
+
 img{
 	width:20%;
 	border: black 3px;
 }
 
 .fotos {
-	width:100%;
-	border: black 3px;
+
+	@include fotos(80%)
 }
 
 article img{
