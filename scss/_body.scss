@@ -6,29 +6,40 @@
 body {
 	background-color: rgba(182, 178, 178, 0.7);
 
+	header {
+		margin-bottom: 3%;
+	}
+
 	footer {
 		text-align: center;
+		margin-top: 5%;
 
 		li {
 	
 			display: $ib;
-			width: 5%;
+			width: 70px;
 		}
 
 	}
 
 	.sectionizq {
-		width: 20%;
+		width: 40%;
 		display: $ib;
 		height: 100%;
 		vertical-align: middle;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		margin-right: 5%;
 	}
 	
 	.sectionder {
-		width: 79%;
+		width: 40%;
 		display: $ib;
 		height: 100%;
 		vertical-align: middle;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		margin-left: 5%;
 	}
 	
 	
@@ -56,10 +67,42 @@ body {
 						}
 					}
 				}
+			a{
+				img {
+					border-radius: map-get($border, br);
+					border-radius: $br
+				}
+			}
 			}
 		}
 	}
 	
 }
 
+
+@media screen and (max-width: 768px) {
+	
+	body {
+	
+		.sectionizq {
+			width: 95%;
+			margin-right: 0;
+
+			iframe {
+				height: 320px;
+				width: 300px;
+			}
+		}
+		
+		.sectionder {
+			width: 95%;
+			margin-left: 0;
+
+			iframe {
+				height: 320px;
+				width: 300px;
+			}
+		}
+	}
+}
 

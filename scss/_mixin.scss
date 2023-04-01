@@ -3,4 +3,8 @@
 @mixin fotos($w) {
     width:$w;
 	border: black 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: map-get($border, br);
+	border-radius: $br
 }
