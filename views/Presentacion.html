@@ -8,13 +8,14 @@
 	<!-- linkear nuestro css -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="../scss/estilos.css">
-
+	<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 	<!-- inicio encabezado -->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light colorNav">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light colorNav">
 			<div class="container-fluid">
 			  <a class="navbar-brand" href="#"></a>
 			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,19 +24,19 @@
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
 				  <li class="nav-item">
-					<a class="nav-link" href="../index.html">Home</a>
+					<a href="../index.html">Home</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="./about.html">Sobre mi</a>
+					<a href="./about.html">Sobre mi</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="./presentacion.html">Presentacion</a>
+					<a href="./presentacion.html">Presentacion</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="./fotos.html">Fotos</a>
+					<a href="./fotos.html">Fotos</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="./contacto.html">Contacto</a>
+					<a href="./contacto.html">Contacto</a>
 				  </li>
 				</ul>
 			  </div>
@@ -44,24 +45,32 @@
 	</header>
 	
 	<!-- fin encabezado -->
-	<div>
-		<section class="sectionizq">
-			<!-- <video src="https://www.w3schools.com/html/mov_bbb.mp4" width="680px" autoplay controls></video> -->
+	<main class="container-fluid">
+		<section class="row mt-5 mb-5">
+			<div class="col-sm-12 col-md-6">
+				<h4>Video emotivo</h4>
+				<iframe class="btc" src="https://drive.google.com/file/d/1Mr1uFENToeNHcO1CTm4joUylV48w25v-/preview" width="80%" height="300px%" allow="autoplay"></iframe>
+			</div>	
+			<div class="col-sm-12 col-md-6">
+				<h4>Origen de algunos contenidos</h4>
+				<iframe class="btc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18084.423520337914!2d-58.75164507781699!3d-38.591850823628825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x958fa2b7b61ac35d%3A0x55054096f51128fe!2sMiguel%20Lillo%20Park!5e0!3m2!1sen!2sar!4v1676988262806!5m2!1sen!2sar" width="80%" height="300px%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
 			
-			<iframe src="https://drive.google.com/file/d/1Mr1uFENToeNHcO1CTm4joUylV48w25v-/preview" width="640" height="480" allow="autoplay"></iframe>
 		</section>
-		<section class="sectionder">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18084.423520337914!2d-58.75164507781699!3d-38.591850823628825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x958fa2b7b61ac35d%3A0x55054096f51128fe!2sMiguel%20Lillo%20Park!5e0!3m2!1sen!2sar!4v1676988262806!5m2!1sen!2sar" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<section class="row mt-5 mb-5">
+			<div class="col-sm-12">
+				<h4>La mejor foto</h4>
+				<img class="fotos" src="../assets/img/2018.jpg" alt="Edinburgo">
+			</div>
 		</section>
-	</div>
+	</main>
 
 	<!-- inicio footer -->
 	<footer>
 		<ul>
-			<li><a href="https://www.linkedin.com/in/hernangonzalezrossi/" target="_blank">Linkedin</a></li>
-			<li><a href="https://twitter.com/hgr79" target="_blank">Twitter</a></li>
-			<li><a href="https://github.com/lucashrossi" target="_blank">Github</a></li>
-			<li><a href="mailto:hernangonzalezrossi@yahoo.com" target="_blank">Email</a></li>
+			<li><a href="https://www.linkedin.com/in/hernangonzalezrossi/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+			<li><a href="https://github.com/lucashrossi" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+			<li><a href="mailto:hernangonzalezrossi@yahoo.com" target="_blank"><i class="fa fa-envelope fa-lg"></i></a></li>
 		</ul>
 	</footer>
 	<!-- fin footer -->

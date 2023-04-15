@@ -4,53 +4,52 @@
 
 
 body {
-	background-color: rgba(182, 178, 178, 0.7);
+
+	background-image: linear-gradient(to bottom, #b2b2b5, #9f9ea8, #8c8b9b, #7b788d, #6a6580);
+	min-height: 100vh;
+	display: flex;
+  	flex-direction: column;
 
 	header {
 		margin-bottom: 3%;
+
+		nav li {
+			display: $ib;
+			width: 15%;
+			font-size: 2rem;
+
+			a {
+				color: rgb(154, 152, 251);
+				text-decoration: none;
+			}
+		}
+
+		
 	}
+
 
 	footer {
 		text-align: center;
-		margin-top: 5%;
+		
+		margin-top: auto;
 
-		li {
+		ul li {
 	
 			display: $ib;
 			width: 70px;
+
 		}
 
 	}
-
-	.sectionizq {
-		width: 40%;
-		display: $ib;
-		height: 100%;
-		vertical-align: middle;
-		margin-top: 5%;
-		margin-bottom: 5%;
-		margin-right: 5%;
-	}
 	
-	.sectionder {
-		width: 40%;
-		display: $ib;
-		height: 100%;
-		vertical-align: middle;
-		margin-top: 5%;
-		margin-bottom: 5%;
-		margin-left: 5%;
-	}
-	
-	
-	nav li {
-		display: $ib;
-		width: 15%;
-		font-size: 2rem;
-	}
 	
 	.colorNav {
-		background-color: rgba(113, 90, 90, 0.7);
+		background-color: rgba(33, 23, 23, 0.7);
+	}
+
+	.ctn {
+		color: white;
+		text-decoration: none;
 	}
 	
 	
@@ -79,30 +78,4 @@ body {
 	
 }
 
-
-@media screen and (max-width: 768px) {
-	
-	body {
-	
-		.sectionizq {
-			width: 95%;
-			margin-right: 0;
-
-			iframe {
-				height: 320px;
-				width: 300px;
-			}
-		}
-		
-		.sectionder {
-			width: 95%;
-			margin-left: 0;
-
-			iframe {
-				height: 320px;
-				width: 300px;
-			}
-		}
-	}
-}
 

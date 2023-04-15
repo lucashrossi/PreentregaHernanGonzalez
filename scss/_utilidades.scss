@@ -7,15 +7,35 @@ img{
 }
 
 .efect {
+	font-size: 1.4rem;
 	animation-name: efect;
-	animation-duration: 3s;
-	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-delay: 0.2s;
 	animation-timing-function: ease-in-out;
+	
+}
+
+.efectt {
+	font-size: 1.4rem;
+	animation-name: efect;
+	animation-duration: 1s;
+	animation-delay: 1.2s;
+	animation-timing-function: ease-in-out;
+	
 }
 
 .imgerr{
 	width:50%;
 	border-radius: 3em;
+}
+
+.btc{
+	border-radius: 0.5em;
+}
+
+.btcb{
+	border-radius: 0.5em;
+	padding: 0.3rem;
 }
 
 .fotos {
@@ -36,13 +56,21 @@ article img:hover {
 
 h4 {
 	margin-top: 30px;
+	
 }
 
+
 @keyframes efect {
-	0%{ font-size: 1rem;}
-	25%{ font-size: 1.25rem;}
-	50%{ font-size: 1.5rem;}
-	75%{ font-size: 1.25rem;}
-	100%{ font-size: 1rem;}
+	0%{ transform: scale(1);}
+	15%{ transform: scale(1.03);}
+	25%{ transform: scale(1.05);}
+	35%{ transform: scale(1.07);}
+	45%{ transform: scale(1.09);}
+	50%{ transform: scale(1.1);}
+	55%{ transform: scale(1.09);}
+	65%{ transform: scale(1.07);}
+	75%{ transform: scale(1.05);}
+	85%{ transform: scale(1.03);}
+	100%{ transform: scale(1);}
 
 }

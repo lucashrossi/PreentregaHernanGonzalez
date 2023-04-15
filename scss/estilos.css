@@ -6,15 +6,33 @@ img {
 }
 
 .efect {
+  font-size: 1.4rem;
   animation-name: efect;
-  animation-duration: 3s;
-  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-delay: 0.2s;
+  animation-timing-function: ease-in-out;
+}
+
+.efectt {
+  font-size: 1.4rem;
+  animation-name: efect;
+  animation-duration: 1s;
+  animation-delay: 1.2s;
   animation-timing-function: ease-in-out;
 }
 
 .imgerr {
   width: 50%;
   border-radius: 3em;
+}
+
+.btc {
+  border-radius: 0.5em;
+}
+
+.btcb {
+  border-radius: 0.5em;
+  padding: 0.3rem;
 }
 
 .fotos {
@@ -42,68 +60,82 @@ h4 {
 
 @keyframes efect {
   0% {
-    font-size: 1rem;
+    transform: scale(1);
+  }
+  15% {
+    transform: scale(1.03);
   }
   25% {
-    font-size: 1.25rem;
+    transform: scale(1.05);
+  }
+  35% {
+    transform: scale(1.07);
+  }
+  45% {
+    transform: scale(1.09);
   }
   50% {
-    font-size: 1.5rem;
+    transform: scale(1.1);
+  }
+  55% {
+    transform: scale(1.09);
+  }
+  65% {
+    transform: scale(1.07);
   }
   75% {
-    font-size: 1.25rem;
+    transform: scale(1.05);
+  }
+  85% {
+    transform: scale(1.03);
   }
   100% {
-    font-size: 1rem;
+    transform: scale(1);
   }
 }
 /* maps */
 /* maps */
 * {
+  padding: 0;
+  margin: 0;
   text-align: center;
+  box-sizing: border-box;
 }
 
 /* maps */
 /* maps */
 body {
-  background-color: rgba(182, 178, 178, 0.7);
+  background-image: linear-gradient(to bottom, #b2b2b5, #9f9ea8, #8c8b9b, #7b788d, #6a6580);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 body header {
   margin-bottom: 3%;
 }
-body footer {
-  text-align: center;
-  margin-top: 5%;
-}
-body footer li {
-  display: inline-block;
-  width: 70px;
-}
-body .sectionizq {
-  width: 40%;
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-right: 5%;
-}
-body .sectionder {
-  width: 40%;
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 5%;
-}
-body nav li {
+body header nav li {
   display: inline-block;
   width: 15%;
   font-size: 2rem;
 }
+body header nav li a {
+  color: rgb(154, 152, 251);
+  text-decoration: none;
+}
+body footer {
+  text-align: center;
+  margin-top: auto;
+}
+body footer ul li {
+  display: inline-block;
+  width: 70px;
+}
 body .colorNav {
-  background-color: rgba(113, 90, 90, 0.7);
+  background-color: rgba(33, 23, 23, 0.7);
+}
+body .ctn {
+  color: white;
+  text-decoration: none;
 }
 body main section div section div article img {
   border-radius: border-radius;
@@ -112,23 +144,4 @@ body main section div section div article img {
 body main section div a img {
   border-radius: border-radius;
   border-radius: 0.35em;
-}
-
-@media screen and (max-width: 768px) {
-  body .sectionizq {
-    width: 95%;
-    margin-right: 0;
-  }
-  body .sectionizq iframe {
-    height: 320px;
-    width: 300px;
-  }
-  body .sectionder {
-    width: 95%;
-    margin-left: 0;
-  }
-  body .sectionder iframe {
-    height: 320px;
-    width: 300px;
-  }
 }/*# sourceMappingURL=estilos.css.map */
